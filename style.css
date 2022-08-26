@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container-left{
+    /* display: flex; */
+    text-align: center;
+    height: 100%;
+
+}
+.navbar-container-middle > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin-right: 121px;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.navbar-container-middle > ul> li{
+    /* padding: 20px; */
+    font-size: 28px;
+    font-family:'Orbitron';
+    padding-bottom: 2px;
+    
+}
+
+.navbar-container-middle > ul>li:hover{
+    /* border-bottom: 1px solid black;
+    border-radius: 10px; */
+    text-decoration: underline;
+    
+}
+
+.navbar-container-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-button{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 13px
+}
+
+.star{
+    position:absolute;
+    right: 17%;
+    top: 28%;
+}
+
+.globe{
+    position:absolute;
+    left: 55%;
+}
+
+.image{
+    position: absolute;
+    top:130px;
+}
+
+.square{
+    position: relative;
+    left: 100px;
+    top: 183px;
+}
+
+.image>img{
+    width: 60%;
+}
+
+.square>img {
+    width:22%;
+}
+
+.hero-container-right{
+    width: 50%;
+    float: right;
+    z-index: 100;
+    margin-right: 181px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 45px ;
+    font-weight: 800;
+    font-family: 'Orbitron',sans-serif;
+}
+
+.hero-description{
+    font-family:'Poppins';
+    font-size: 12px;
+    color: #1a18189a;
+    margin-top: 20px;
+    width: 90%;
+    width: 85%;
+    margin-left: 34px;
+    margin-bottom: 20px;
+}
+
+.button-email{
+    /* color: transparent; */
+    padding: 5px 20px;
+    font-family: 'Orbitron',sans-serif;
+    border-radius: 7px;
+    outline: none;
+    border:1px solid #000;
+    color: #1a18189a;
+    cursor: pointer;
+}
+
+.button-join{
+    padding: 5px 20px;
+    font-family: 'Orbitron',sans-serif;
+    color: #f5f5f5;
+    background-color: #000;
+    margin-left: 5px;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.contact{
+    margin-top: 25px;
+}
+
+.contact-heading{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #1a1818ee;
+    
+}
+
+.icons>span>img{
+    width: 40px;
+}
