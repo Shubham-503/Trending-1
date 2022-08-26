@@ -16,7 +16,7 @@
 <br>
 
 #### It took around 2 hr to build 
- - livelink()
+ - # [Live Link](https://trending-1.netlify.app/)
 
-# 
+
 ![Screenshots](trending-thumbnail.png)
